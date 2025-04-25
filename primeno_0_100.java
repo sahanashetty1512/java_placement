@@ -13,8 +13,8 @@ public class primeno_0_100 {
     }
 
     public static void main(String[] args) {
-        System.out.println("Prime numbers between 1 and 100 are:");
-        for (int i = 1; i <= 100; i++) {
+        System.out.println("Prime numbers between 0 and 100 are:");
+        for (int i = 0; i <= 100; i++) {
             if (isPrimeNumber(i)) {
                 System.out.print(i + " ");
             }
